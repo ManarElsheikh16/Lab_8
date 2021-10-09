@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>day 8</title>
+    </head>
+    <body>
+        <br/><br/>
+        <input type="button" value="click here" id="btn" onclick="myFunc1()">
+        <div id="divv"></div>
+        <br/><br/>
+        <form action="register.html" method="GET" onsubmit="validd(event)">
+            <fieldset>
+            <legend>Registeration Form</legend>
+            <label for="name" >Full name</label>
+            <input  placeholder="Enter your Name" type="text" name="name" id="username" required onfocus="focuss()" onblur="blurr()">
+            <span id="sp2"></span>
+            <br/><br/>
+            <label for="email">Email</label>
+            <input type="email" name="email" required>
+            <br/><br/>
+            <label for="city">City</label>
+            <select>
+                <option >Assiut</option>
+                <option>Sohag</option>
+                <option>Egypt</option>
+            </select>
+            <br/><br/>
+            <label for="pass">Password</label>
+            <input type="password" name="pass" required id="passs" >
+            <br/><br/>
+            <label for="Rpass">Repeat password</label>
+            <input type="password" name="Rpass" required onblur="checkk()" id="Rpasss">
+            <span id="sp1"></span>
+            <br/><br/>
+            <input type="checkbox" name="check" >
+            <label for="check">I accept the terms and conditions</label>
+            <br/><br/>
+            <input type="submit" value="Register">
+            </fieldset>
+        </form>
+           <br/> <br/>
+        <img src="images.jpg" id="IMG" width="280" height="280" onmouseover="opac1()" onmouseout="opac2()">
+        <script src="task1.js"></script>
+        <script src="task2.js"></script>
+        <script src="task3.js"></script>
+        <script src="task4.js"></script>
+        <script src="task5.js"></script>
+    </body>
+</html>
